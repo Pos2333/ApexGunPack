@@ -1,0 +1,9 @@
+{
+  "slot": "apex:attachment/slot/muzzle_apex_3",
+  "model": "apex:attachment/muzzle_apex.geo",
+  "texture": "apex:attachment/uv/muzzle_a",
+  "sounds": {
+    "install": "tacz:attachments/attachment_general_a",
+    "uninstall": "tacz:attachments/attachment_general_uninstall"
+  }
+}

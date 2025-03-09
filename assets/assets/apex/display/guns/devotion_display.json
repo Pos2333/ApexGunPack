@@ -1,0 +1,84 @@
+{
+  "model": "apex:gun/devotion_geo",
+  "texture": "apex:gun/uv/devotion",
+  "hud": "apex:gun/hud/devotion",
+  "slot": "apex:gun/slot/devotion",
+  "animation": "apex:devotion",
+  "default_animation": "apex:default",
+  "third_person_animation": "default",
+  "state_machine": "apex:devotion_state_machine",
+  "lod": {
+    "model": "tacz:gun/lod/m249",
+    "texture": "tacz:gun/lod/m249"
+  },
+  "transform": {
+    "scale": {
+      "thirdperson": [0.6, 0.6, 0.6],
+      "ground": [0.6, 0.6, 0.6],
+      "fixed": [1.2, 1.2, 1.2]
+    }
+  },
+  "muzzle_flash": {
+    "texture": "apex:flash/common_muzzle_flash_dark_blue",
+    "scale": 2
+  },
+  "shell": {
+    "initial_velocity": [8.0, 5.0, -0.5],
+     "random_velocity": [2.5, 1.5, 0.25],
+     "acceleration": [0.0, -20, 0.0],
+     "angular_velocity": [720, 1200, 90],
+     "living_time": 1.0
+  },
+  "sounds": {
+    "shoot": "",
+    "shoot_3p": "tacz:m249/m249_shoot_3p",
+    "reload_empty": "tacz:m249/m249_reload_empty",
+    "reload_tactical": "tacz:m249/m249_reload_tactical",
+    "inspect": "apex:devotion/devotion/inspect_01",
+    "inspect_empty": "",
+    "draw": "tacz:m249/m249_draw",
+    "put_away": "tacz:m249/m249_put_away",
+    "silence": "tacz:m249/m249_silence",
+    "silence_3p": "tacz:m249/m249_silence_3p",
+    "melee_push": "tacz:melee_stock/melee_stock_02",
+    "melee_stock": "tacz:melee_stock/melee_stock_03"
+  },
+  "offhand_show": {
+    "pos": [0, 18, 5],
+    "rotate": [-20, 0, 30],
+    "scale": [0.5, 0.5, 0.5]
+  },
+  "hotbar_show": {
+    "0": {
+      "pos": [-4, 24, 4],
+      "rotate": [-90, -5, -90],
+      "scale": [0.5, 0.5, 0.5]
+  }
+ },
+  "text_show": {
+  "ammo_count_text_show_pos": {
+	"scale": 0.3,
+	"align": "center",
+   "shadow": false,
+   "color": "#00e0ff",
+	"light": 15,
+	"text": "car_ammo_count"
+ },
+  "ammo_count_text_show_pos2": {
+	"scale": 0.5,
+	"align": "center",
+   "shadow": false,
+   "color": "#eace00",
+	"light": 15,
+	"text": "car_ammo_count"
+ },
+  "ammo_count_text_show_pos": {
+	"scale": 0.3,
+	"align": "center",
+   "shadow": false,
+   "color": "#00e0ff",
+	"light": 15,
+	"text": "car_ammo_count"
+  }
+ }
+}

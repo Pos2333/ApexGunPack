@@ -1,0 +1,14 @@
+{
+  "slot": "apex:attachment/slot/2x_bruiser",
+  "model": "apex:attachment/2x_bruiser_geo",
+  "texture": "apex:attachment/uv/2x_bruiser",
+  "zoom": [
+    2.5
+  ],
+  "sight": true,
+  "fov": 30.0,
+  "sounds": {
+    "install": "tacz:attachments/scope_general_b",
+    "uninstall": "tacz:attachments/scope_general_b"
+  }
+}

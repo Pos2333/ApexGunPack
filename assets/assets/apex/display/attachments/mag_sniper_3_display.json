@@ -1,0 +1,7 @@
+{
+  "slot": "apex:attachment/slot/mag_sniper_3",
+  "sounds": {
+    "install": "tacz:attachments/extended_mag_install",
+    "uninstall": "tacz:attachments/extended_mag_uninstall"
+  }
+}

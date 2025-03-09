@@ -1,0 +1,14 @@
+{
+  "slot": "apex:attachment/slot/sight_sentinel",
+  "model": "apex:attachment/sight_sentinel_geo",
+  "texture": "apex:attachment/uv/sight_sentinel",
+  "zoom": [
+    1.1
+  ],
+  "sight": true,
+  "fov": 80.0,
+  "sounds": {
+    "install": "tacz:attachments/scope_general_b",
+    "uninstall": "tacz:attachments/scope_general_b"
+  }
+}

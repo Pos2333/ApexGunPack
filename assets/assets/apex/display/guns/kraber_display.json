@@ -1,0 +1,80 @@
+{
+ "model": "apex:gun/kraber_geo",
+ "texture": "apex:gun/uv/kraber",
+ "lod": {
+	"model": "apexgun/wingman_geo",
+	"texture": "apex:gun/uv/wingman"
+ },
+ "hud": "apex:gun/hud/kraber",
+ "slot": "apex:gun/slot/kraber",
+ "animation": "apex:kraber",
+ "state_machine": "apex:apex_state_machine",
+ "default_animation": "apex:default",
+ "transform": {
+	"scale": {
+		"thirdperson": [0.6, 0.6, 0.6],
+		"ground": [0.6, 0.6, 0.6],
+		"fixed": [1.2, 1.2, 1.2]
+	}
+ },
+ "shell": {
+	"initial_velocity": [8.0, 5.0, -0.5],
+	"random_velocity": [2.5, 1.5, 0.25],
+	"acceleration": [0.0, -20, 0.0],
+	"angular_velocity": [-720, -720, 90],
+	"living_time": 1.0
+ },
+"muzzle_flash": {
+	"texture": "apex:flash/common_muzzle_flash_yellow",
+	"scale": 2
+},
+"sounds": {
+	"shoot": "apex:kraber/kraber_shoot",
+	"shoot_3p": "tacz:kraber/kraber_shoot_3p",
+	"draw": "apex:kraber/kraber_draw",
+	"put_away": "apex:kraber/kraber_put_away",
+	"dry_fire": "tacz:dry_fire",
+	"fire_select": "tacz:fire_select",
+	"head_hit": "apex:headshot",
+	"flesh_hit": "apex:fleshshot",
+	"kill": "apex:killshot"
+},
+ "offhand_show": {
+	"pos": [-2, 20, 4],
+	"rotate": [0, 0, 45],
+	"scale": [0.5, 0.5, 0.5]
+ },
+ "hotbar_show": {
+    "0": {
+      "pos": [-4, 24, 3],
+      "rotate": [-90, -5, -90],
+      "scale": [0.5, 0.5, 0.5]
+    }
+  },
+ "text_show": {
+  "ammo_count_text_show_pos": {
+	"scale": 1,
+	"align": "center",
+   "shadow": false,
+   "color": "#00e0ff",
+	"light": 15,
+	"text": "car_ammo_count"
+ },
+  "ammo_count_text_show_pos2": {
+	"scale": 1,
+	"align": "center",
+   "shadow": false,
+   "color": "#ff0000",
+	"light": 15,
+	"text": "car_ammo_count"
+ },
+  "ammo_count_text_show_pos3": {
+	"scale": 0.3,
+	"align": "center",
+   "shadow": false,
+   "color": "#00e0ff",
+	"light": 15,
+	"text": "car_ammo_count3"
+  }
+ }
+}

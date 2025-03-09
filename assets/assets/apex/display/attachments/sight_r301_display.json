@@ -1,0 +1,14 @@
+{
+  "slot": "apex:attachment/slot/sight_r301",
+  "model": "apex:attachment/sight_r301_geo",
+  "texture": "apex:attachment/uv/sight_r301",
+  "zoom": [
+    1.2
+  ],
+  "sight": true,
+  "fov": 70.0,
+  "sounds": {
+    "install": "tacz:attachments/scope_general_b",
+    "uninstall": "tacz:attachments/scope_general_b"
+  }
+}

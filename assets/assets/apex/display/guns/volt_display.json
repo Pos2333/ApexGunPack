@@ -1,0 +1,126 @@
+{
+  "model": "apex:gun/volt_geo",
+  "texture": "apex:gun/uv/volt",
+  "lod": {
+      "model": "apex:gun/lod/volt",
+      "texture": "apex:gun/lod/volt"
+  },
+  "hud": "apex:gun/hud/volt",
+  "slot": "apex:gun/slot/volt",
+  "state_machine": "apex:apex_state_machine",
+  "animation": "apex:volt",
+  "default_animation": "apex:default",
+  "transform": {
+      "scale": {
+          "thirdperson": [0.6, 0.6, 0.6],
+          "ground": [0.6, 0.6, 0.6],
+          "fixed": [1.2, 1.2, 1.2]
+     }
+  },
+  "shell": {
+      "initial_velocity": [8.0, 5.0, -0.5],
+      "random_velocity": [2.5, 1.5, 0.25],
+      "acceleration": [0.0, -20, 0.0],
+      "angular_velocity": [720, 1200, 90],
+      "living_time": 1.0
+  },
+  "muzzle_flash": {
+      "texture": "apex:flash/common_muzzle_flash_blue",
+      "scale": 1.7
+  },
+  "sounds": {
+      "draw": "apex:volt/volt_draw",
+      "put_away": "apex:volt/volt_put_away",
+      "shoot": "apex:volt/volt_shoot",
+      "shoot_3p": "apex:volt/volt_shoot_3p",
+      "dry_fire": "tacz:dry_fire",
+      "fire_select": "tacz:fire_select",
+	"head_hit": "apex:headshot",
+	"flesh_hit": "apex:fleshshot",
+	"kill": "apex:killshot"
+  },
+  "offhand_show": {
+      "pos": [-4.5, 12, 0],
+      "rotate": [0, 90, -45]
+  },
+  "hotbar_show": {
+      "0": {
+      "pos": [4.5, 12, 0],
+      "rotate": [0, 90, -45]
+     }
+  },
+  "text_show": {
+    "ammo_count_text_show_pos": {
+      "scale": 0.5,
+      "align": "center",
+      "shadow": false,
+      "color": "#4aca58",
+      "light": 15,
+      "text":"car_ammo_count"
+  },
+    "ammo_count_text_show_posx": {
+      "scale": 0.5,
+      "align": "center",
+      "shadow": false,
+      "color": "#4aca58",
+      "light": 15,
+      "text":"<    >"
+  },
+   "ammo_count_text_show_pos2": {
+      "scale": 0.5,
+      "align": "center",
+      "shadow": false,
+      "color": "#ff0000",
+      "light": 15,
+      "text": "car_ammo_count"
+  },
+    "ammo2": {
+      "scale": 0.6,
+      "align": "center",
+      "shadow": false,
+      "color": "#00e0ff",
+      "light": 15,
+      "text": "car_ammo_count"
+  },
+    "em": {
+      "scale": 0.3,
+      "align": "center",
+      "shadow": false,
+      "color": "#00e0ff",
+      "light": 15,
+      "text": "AMMO:ENERGY"
+  },
+    "player_name2": {
+      "scale": 0.3,
+      "align": "right",
+      "shadow": false,
+      "color": "#ff0000",
+      "light": 15,
+      "text": "USER:%player_name%"
+  },
+     "ammoe": {
+      "scale": 0.6,
+      "align": "center",
+      "shadow": false,
+      "color": "#ff0000",
+      "light": 15,
+      "text": "car_ammo_count"
+  },
+    "emp": {
+      "scale": 0.3,
+      "align": "center",
+      "shadow": false,
+      "color": "#ff0000",
+      "light": 15,
+      "text": "AMMO:ENERGY"
+  },
+    "player_name": {
+      "scale": 0.3,
+      "align": "left",
+      "shadow": false,
+      "color": "#00e0ff",
+      "light": 15,
+      "text": "USER:%player_name%"
+  }
+ }
+}

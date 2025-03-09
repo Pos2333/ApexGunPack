@@ -1,0 +1,14 @@
+{
+  "slot": "apex:attachment/slot/sight_vk47",
+  "model": "apex:attachment/sight_vk47_geo",
+  "texture": "apex:attachment/uv/sight_vk47",
+  "zoom": [
+    1.2
+  ],
+  "sight": true,
+  "fov": 70.0,
+  "sounds": {
+    "install": "tacz:attachments/scope_general_b",
+    "uninstall": "tacz:attachments/scope_general_b"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "slot": "apex:attachment/slot/2x_bruiser",
+  "model": "apex:attachment/6x_sniper_geo",
+  "texture": "apex:attachment/uv/6x_sniper",
+  "zoom": [
+    10
+  ],
+  "sight": false,
+  "scope": true,
+  "fov": 15,
+  "sounds": {
+    "install": "tacz:attachments/scope_general_b",
+    "uninstall": "tacz:attachments/scope_general_b"
+  }
+}

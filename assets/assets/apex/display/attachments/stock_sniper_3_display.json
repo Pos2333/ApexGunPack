@@ -1,0 +1,7 @@
+{
+  "slot": "apex:attachment/slot/stock_sniper_3",
+  "sounds": {
+    "install": "tacz:attachments/attachment_general_a",
+    "uninstall": "tacz:attachments/attachment_general_uninstall"
+  }
+}
