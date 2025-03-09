@@ -1,0 +1,8 @@
+{
+  "hidden": true,
+  "name": "apex.attachment.sight_vk47.name",
+  "tooltip": "apex.attachment.sight_vk47.tooltip",
+  "display": "apex:sight_vk47_display",
+  "data": "apex:sight_vk47_data",
+  "type": "scope"
+}

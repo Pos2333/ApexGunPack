@@ -1,0 +1,8 @@
+{
+  "hidden": true,
+  "name": "apex.attachment.sight_sentinel.name",
+  "tooltip": "apex.attachment.sight_sentinel.tooltip",
+  "display": "apex:sight_sentinel_display",
+  "data": "apex:sight_sentinel_data",
+  "type": "scope"
+}

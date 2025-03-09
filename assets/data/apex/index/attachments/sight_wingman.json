@@ -1,0 +1,8 @@
+{
+  "hidden": true,
+  "name": "apex.attachment.sight_wingman.name",
+  "tooltip": "apex.attachment.sight_wingman.tooltip",
+  "display": "apex:sight_wingman_display",
+  "data": "apex:sight_wingman_data",
+  "type": "scope"
+}

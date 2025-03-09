@@ -1,0 +1,8 @@
+{
+  "hidden": true,
+  "name": "apex.attachment.10x_kraber.name",
+  "tooltip": "apex.attachment.10x_kraber.tooltip",
+  "display": "apex:10x_kraber_display",
+  "data": "apex:10x_kraber_data",
+  "type": "scope"
+}

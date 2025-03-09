@@ -1,0 +1,6 @@
+{
+  "name": "apex.gun.hand.name",
+  "display": "apex:hand_display",
+  "data": "apex:hand_data",
+  "type": "pistol"
+}

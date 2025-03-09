@@ -1,0 +1,8 @@
+{
+  "hidden": true,
+  "name": "apex.attachment.sight_longbow.name",
+  "tooltip": "apex.attachment.sight_longbow.tooltip",
+  "display": "apex:sight_longbow_display",
+  "data": "apex:sight_longbow_data",
+  "type": "scope"
+}

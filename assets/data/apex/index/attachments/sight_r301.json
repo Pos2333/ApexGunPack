@@ -1,0 +1,8 @@
+{
+  "hidden": true,
+  "name": "apex.attachment.sight_r301.name",
+  "tooltip": "apex.attachment.sight_r301.tooltip",
+  "display": "apex:sight_r301_display",
+  "data": "apex:sight_r301_data",
+  "type": "scope"
+}

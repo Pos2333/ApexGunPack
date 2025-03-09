@@ -1,0 +1,6 @@
+{
+  "name": "apex.gun.kraber.name",
+  "display": "apex:kraber_display",
+  "data": "apex:kraber_data",
+  "type": "sniper"
+}

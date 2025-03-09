@@ -1,0 +1,6 @@
+{
+  "name": "apex.attachment.mag_heavy_2.name",
+  "display": "apex:mag_heavy_2_display",
+  "data": "apex:mag_heavy_2_data",
+  "type": "extended_mag"
+}

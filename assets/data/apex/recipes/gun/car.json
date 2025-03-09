@@ -1,0 +1,39 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 60
+    },
+    {
+      "item": {
+        "tag": "forge:dusts/redstone"
+      },
+      "count": 10
+    },
+    {
+      "item": {
+        "tag": "forge:glass"
+      },
+      "count": 6
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/gold"
+      },
+      "count": 9
+    },
+    {
+      "item": {
+        "tag": "forge:gems/diamond"
+      },
+      "count": 2
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "apex:car"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

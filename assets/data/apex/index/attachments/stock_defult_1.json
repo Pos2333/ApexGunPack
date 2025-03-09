@@ -1,0 +1,6 @@
+{
+  "name": "apex.attachment.stock_defult_1.name",
+  "display": "apex:stock_defult_1_display",
+  "data": "apex:stock_defult_1_data",
+  "type": "stock"
+}

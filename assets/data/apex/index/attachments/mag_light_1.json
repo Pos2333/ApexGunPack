@@ -1,0 +1,6 @@
+{
+  "name": "apex.attachment.mag_light_1.name",
+  "display": "apex:mag_light_1_display",
+  "data": "apex:mag_light_1_data",
+  "type": "extended_mag"
+}

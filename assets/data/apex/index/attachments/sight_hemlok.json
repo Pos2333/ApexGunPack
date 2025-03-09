@@ -1,0 +1,8 @@
+{
+  "hidden": true,
+  "name": "apex.attachment.sight_hemlok.name",
+  "tooltip": "apex.attachment.sight_hemlok.tooltip",
+  "display": "apex:sight_hemlok_display",
+  "data": "apex:sight_hemlok_data",
+  "type": "scope"
+}

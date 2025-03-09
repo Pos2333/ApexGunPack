@@ -1,0 +1,6 @@
+{
+  "name": "apex.gun.alternator.name",
+  "display": "apex:alternator_display",
+  "data": "apex:alternator_data",
+  "type": "smg"
+}

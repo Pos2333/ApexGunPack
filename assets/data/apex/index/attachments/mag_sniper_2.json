@@ -1,0 +1,6 @@
+{
+  "name": "apex.attachment.mag_sniper_2.name",
+  "display": "apex:mag_sniper_2_display",
+  "data": "apex:mag_sniper_2_data",
+  "type": "extended_mag"
+}

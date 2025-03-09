@@ -1,0 +1,7 @@
+{
+  "name": "apex.attachment.2x_bruiser.name",
+  "tooltip": "apex.attachment.2x_bruiser.tooltip",
+  "display": "apex:2x_bruiser_display",
+  "data": "apex:2x_bruiser_data",
+  "type": "scope"
+}

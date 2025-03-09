@@ -1,0 +1,6 @@
+{
+  "name": "apex.attachment.stock_sniper_1.name",
+  "display": "apex:stock_sniper_1_display",
+  "data": "apex:stock_sniper_1_data",
+  "type": "stock"
+}

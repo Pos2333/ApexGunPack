@@ -1,0 +1,8 @@
+{
+  "hidden": true,
+  "name": "apex.attachment.sight_car.name",
+  "tooltip": "apex.attachment.sight_car.tooltip",
+  "display": "apex:sight_car_display",
+  "data": "apex:sight_car_data",
+  "type": "scope"
+}

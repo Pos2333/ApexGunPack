@@ -1,0 +1,7 @@
+{
+  "name": "apex.attachment.6x_sniper.name",
+  "tooltip": "apex.attachment.6x_sniper.tooltip",
+  "display": "apex:6x_sniper_display",
+  "data": "apex:6x_sniper_data",
+  "type": "scope"
+}
