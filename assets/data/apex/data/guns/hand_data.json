@@ -1,0 +1,81 @@
+{
+  "ammo": "apex:ammo_none",
+  "rpm": 1,
+  "bullet": {
+    "life": 1.25,
+    "bullet_amount": 1,
+    "damage": 1,
+    "tracer_count_interval": 0,
+    "extra_damage": {
+      "armor_ignore": 0.25,
+      "head_shot_multiplier": 1.75,
+      "damage_adjust": [
+        {"distance": 29.5, "damage": 22.5},
+        // 如果你忘记写这个无穷，那么超过上述距离，我就认为是 0
+        {"distance": "infinite", "damage": 22}
+      ]
+    },
+    "speed": 250,
+    "gravity": 0.15,
+    "knockback": 0,
+    "friction": 0.012,
+    "ignite": false,
+    "pierce": 1
+  },
+  "ammo_amount": 1,
+  "extended_mag_ammo_amount": [
+    1,
+    1,
+    1
+  ],
+  "bolt": "open_bolt",
+  "reload": {
+    "type": "magazine",
+    "feed": {
+      "empty": 1.2,
+      "tactical": 1.2
+    },
+    "cooldown": {
+      "empty": 2.1,
+      "tactical": 2.1
+    }
+  },
+  "draw_time": 0.3,
+  "put_away_time": 0.3,
+  "aim_time": 0.1,
+  "sprint_time": 0.2,
+  "weight": 1.5,
+  "movement_speed": {
+    "base": 0.0,
+    "aim": 0,
+    "reload": 0
+  },
+  "fire_mode": [
+    "semi"
+  ],
+  "recoil": {
+    "pitch": [
+      {"time": 0, "value": [0, 0]},
+      {"time": 0.2, "value": [0, 0]},
+      {"time": 0.6, "value": [0, 0]}
+    ],
+    "yaw": [
+      {"time": 0, "value": [0, 0]},
+      {"time": 0.2, "value": [0, 0]},
+      {"time": 0.75, "value": [0, 0]}
+    ]
+  },
+  "inaccuracy": {
+    "stand": 6,
+    "move": 8,
+    "sneak": 5,
+    "lie": 2,
+    "aim": 0.01
+  }, 
+  "allow_attachment_types": [
+    "scope"
+  ],
+  "builtin_attachments": {
+    "scope": "apex:sight_wingman"
+  }
+}

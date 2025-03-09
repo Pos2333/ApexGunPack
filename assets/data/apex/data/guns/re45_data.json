@@ -1,0 +1,93 @@
+{
+  "ammo": "apex:ammo_light",
+  "rpm": 1200,
+  "bullet": {
+    "life": 0.4,
+    "bullet_amount": 1,
+    "damage": 4,
+    "tracer_count_interval": 0,
+    "extra_damage": {
+      "armor_ignore": 0,
+      "head_shot_multiplier": 1.5,
+      "damage_adjust": [
+        {"distance": 4.25, "damage": 7},
+        {"distance": 4, "damage": 10},
+        {"distance": 4, "damage": 14},
+        {"distance": 3, "damage": 17},
+        // 如果你忘记写这个无穷，那么超过上述距离，我就认为是 0
+        {"distance": "infinite", "damage": 3}
+      ]
+    },
+    "speed": 100,
+    "gravity": 0.15,
+    "knockback": 0,
+    "friction": 0.012,
+    "ignite": false,
+    "pierce": 1
+  },
+  "ammo_amount": 17,
+  "extended_mag_ammo_amount": [
+    20,
+    22,
+    24
+  ],
+  "bolt": "closed_bolt",
+  "reload": {
+    "type": "magazine",
+    "feed": {
+      "empty": 1.5,
+      "tactical": 1.45
+    },
+    "cooldown": {
+      "empty": 1.88,
+      "tactical": 1.5
+    }
+  },
+  "draw_time": 0.32,
+  "put_away_time": 0.35,
+  "aim_time": 0.12,
+  "sprint_time": 0.2,
+  "weight": 1.5,
+  "movement_speed": {
+    "base": 0.0,
+    "aim": 0,
+    "reload": 0
+  },
+  "fire_mode": [
+    "auto"
+  ],
+  "allow_attachments": {
+    "scope": {
+     "black_list": [
+        "tacz:sro_dot",
+        "tacz:8x"
+      ]
+    },
+    "extended_mag": {},
+    "muzzle": {
+      "white_list": [
+        "tacz:muzzle_silence_mirage"
+      ]
+    }
+  },
+  "recoil": {
+    "pitch": [
+      {"time": 0, "value": [0.5, 0.5]},
+      {"time": 0.35, "value": [0.5, 0.5]},
+      {"time": 0.6, "value": [-0.15, -0.15]},
+      {"time": 0.8, "value": [0.15, 0.15]},
+      {"time": 1.0, "value": [0, 0]}
+    ],
+    "yaw": [
+      {"time": 0, "value": [-0.1, 0.1]},
+      {"time": 0.45, "value": [0, 0]}
+    ]
+  },
+  "inaccuracy": {
+    "stand": 2,
+    "move": 2.5,
+    "sneak": 1,
+    "lie": 0.7,
+    "aim": 0.15
+  }
+}

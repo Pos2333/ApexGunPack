@@ -1,0 +1,12 @@
+{
+  "weight": 0.3,
+  "inaccuracy_addend": -0.35,
+  "recoil": {
+    "pitch": {
+      "multiplier": 0.85
+    },
+    "yaw": {
+      "multiplier": 0.85
+    }
+  }
+}

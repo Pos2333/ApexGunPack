@@ -1,0 +1,105 @@
+{
+  "ammo": "apex:ammo_shotgun",
+  "ammo_amount": 5,
+  "bolt": "open_bolt",
+  "rpm": 65,
+  "bullet": {
+    "life": 0.6,
+    "bullet_amount": 9,
+    "damage": 48,
+    "tracer_count_interval": 0,
+    "extra_damage": {
+      "armor_ignore": 0.0,
+      "head_shot_multiplier": 1,
+      "damage_adjust": [
+        {"distance": 15, "damage": 48},
+        {"distance": 30, "damage": 48},
+        {"distance": "infinite", "damage": 48}
+      ]
+    },
+    "speed": 135,
+    "gravity": 0.15,
+    "knockback": 0.15,
+    "friction": 0.05,
+    "ignite": false,
+    "pierce": 1
+  },
+  "reload": {
+    "type": "magazine",
+    // 在 m870 的脚本逻辑中：
+    // feed.empty 表示 reload_intro_empty 的时长
+    // feed.tactical 表示 reload_intro 的时长
+    // cooldown.empty 表示 reload_loop 的时长
+    // cooldown.tactical 表示 reload_end 的时长
+    "feed": {
+      "empty": 2.13,
+      "tactical": 0.5
+    },
+    "cooldown": {
+      "empty": 0.67,
+      "tactical": 0.23
+    }
+  },
+  "draw_time": 0.35,
+  "put_away_time": 0.45,
+  "bolt_action_time": 0.55,
+  "aim_time": 0.2,
+  "sprint_time": 0.17,
+  "weight": 3.6,
+  "movement_speed": {
+    "base": 0.0,
+    "aim": -0.2,
+    "reload": -0.15
+  },
+  "fire_mode": [
+    "semi"
+  ],
+  "recoil": {
+    "pitch": [
+      {"time": 0, "value": [0.25, 0.25]},
+      {"time": 0.125, "value": [0.25, 0.25]},
+      {"time": 0.4, "value": [-0.25, -0.25]},
+      {"time": 0.55, "value": [0, 0]}
+    ],
+    "yaw": [
+      {"time": 0, "value": [-0.5, 0.5]},
+      {"time": 0.1, "value": [-0.5, 0.5]},
+      {"time": 0.2, "value": [0.15, 0.15]},
+      {"time": 0.4, "value": [0, 0]}
+    ]
+  },
+  "inaccuracy": {
+    "stand": 4.5,
+    "move": 4.75,
+    "sneak": 4,
+    "lie": 4,
+    "aim": 4
+  },
+  "melee": {
+    "distance": 1,
+    "cooldown": 0.7,
+    "default": {
+      "animation_type": "melee_stock",
+      "distance": 1,
+      "range_angle": 30,
+      "damage": 2,
+      "knockback": 0.6,
+      "prep": 0.1
+    }
+  },
+  "script": "apex:mastiff_gun_logic",
+  "script_param": {
+    "bolt_time": 0.5,
+    "intro_empty": 1.12,
+    "intro": 0.4,
+    "loop": 0.45,
+    "ending": 0.42,
+    "intro_empty_feed": 0.67,
+    "loop_feed": 0.43
+  },
+  "allow_attachment_types": [
+    "extended_mag",
+    "scope",
+    "stock"
+  ]
+}
