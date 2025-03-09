@@ -1,0 +1,64 @@
+{
+	"format_version": "1.21.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 6,
+				"visible_bounds_height": 4,
+				"visible_bounds_offset": [0, 0, 0]
+			},
+			"bones": [
+				{
+					"name": "sight_wingman",
+					"pivot": [0, 0.03125, 0]
+				},
+				{
+					"name": "ocular",
+					"parent": "sight_wingman",
+					"pivot": [0, 1.85625, -2.4375],
+					"cubes": [
+						{
+							"origin": [-0.34375, 0.07148, 5.6],
+							"size": [0.6875, 0.67892, 0.0725],
+							"uv": {
+								"north": {"uv": [0, 5], "uv_size": [2.75, 2]},
+								"south": {"uv": [4, 5], "uv_size": [2.75, 2]}
+							}
+						}
+					]
+				},
+				{
+					"name": "ocular_ring",
+					"parent": "sight_wingman",
+					"pivot": [0, 9.15625, 2.75]
+				},
+				{
+					"name": "division",
+					"parent": "sight_wingman",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "division_illuminated",
+					"parent": "division",
+					"pivot": [0, 0.40631, -6.59375],
+					"cubes": [
+						{
+							"origin": [-0.34031, 0.06603, -6.59375],
+							"size": [0.68063, 0.68055, 0],
+							"uv": {
+								"south": {"uv": [18.624, 18.432], "uv_size": [26.752, 26.624]}
+							}
+						}
+					]
+				},
+				{
+					"name": "scope_view",
+					"pivot": [0, 0.39688, 9.825]
+				}
+			]
+		}
+	]
+}

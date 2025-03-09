@@ -1,0 +1,151 @@
+{
+	"format_version": "1.21.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 6,
+				"visible_bounds_height": 4,
+				"visible_bounds_offset": [0, 0, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [-0.1875, 2.6875, 1.375]
+				},
+				{
+					"name": "R",
+					"parent": "root",
+					"pivot": [-0.875, 1.5, 2]
+				},
+				{
+					"name": "right",
+					"parent": "R",
+					"pivot": [6, 11, 0]
+				},
+				{
+					"name": "righthand_pos",
+					"parent": "right",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [4, 0, -2],
+							"size": [4, 12, 4],
+							"uv": {
+								"north": {"uv": [16, 0], "uv_size": [8, 24]},
+								"east": {"uv": [0, 24], "uv_size": [8, 24]},
+								"south": {"uv": [0, 0], "uv_size": [8, 24]},
+								"west": {"uv": [8, 0], "uv_size": [8, 24]},
+								"up": {"uv": [24, 0], "uv_size": [8, 8], "uv_rotation": 180},
+								"down": {"uv": [8, 32], "uv_size": [8, -8]}
+							}
+						}
+					]
+				},
+				{
+					"name": "left",
+					"parent": "root",
+					"pivot": [-6, 11, 0]
+				},
+				{
+					"name": "lefthand_pos",
+					"parent": "left",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-8, 0, -2],
+							"size": [4, 12, 4],
+							"uv": {
+								"north": {"uv": [16, 0], "uv_size": [8, 24]},
+								"east": {"uv": [8, 0], "uv_size": [8, 24]},
+								"south": {"uv": [8, 0], "uv_size": [-8, 24]},
+								"west": {"uv": [0, 24], "uv_size": [8, 24]},
+								"up": {"uv": [32, 8], "uv_size": [-8, -8]},
+								"down": {"uv": [16, 32], "uv_size": [-8, -8]}
+							}
+						}
+					]
+				},
+				{
+					"name": "views",
+					"pivot": [0, 1, 0]
+				},
+				{
+					"name": "refit_view",
+					"parent": "views",
+					"pivot": [18, 2, -3],
+					"rotation": [0, -90, 0]
+				},
+				{
+					"name": "refit_muzzle_view",
+					"parent": "views",
+					"pivot": [0, 3, -14],
+					"rotation": [0, 120, 0]
+				},
+				{
+					"name": "refit_grip_view",
+					"parent": "views",
+					"pivot": [0, -1, -11],
+					"rotation": [0, 90, 0]
+				},
+				{
+					"name": "refit_scope_view",
+					"parent": "views",
+					"pivot": [6, 6.5, 1],
+					"rotation": [0, 50, 0]
+				},
+				{
+					"name": "idle_view",
+					"parent": "views",
+					"pivot": [1.8125, 6.1875, 12.5]
+				},
+				{
+					"name": "iron_view",
+					"parent": "views",
+					"pivot": [0, 5.7513, 9.4375]
+				},
+				{
+					"name": "refit_extended_mag_view",
+					"parent": "views",
+					"pivot": [16, -6, 3],
+					"rotation": [0, 90, 22.5]
+				},
+				{
+					"name": "gun_positioning",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "muzzle_pos",
+					"parent": "gun_positioning",
+					"pivot": [0.125, 4.59375, -7.875]
+				},
+				{
+					"name": "fixed",
+					"parent": "gun_positioning",
+					"pivot": [1, 3.6875, -2.1875],
+					"rotation": [0, -90, 0]
+				},
+				{
+					"name": "ground",
+					"parent": "gun_positioning",
+					"pivot": [0, -1, -1]
+				},
+				{
+					"name": "thirdperson_hand",
+					"parent": "gun_positioning",
+					"pivot": [0, 2.375, 1.5]
+				},
+				{
+					"name": "camera",
+					"pivot": [2, 6.75, 12.5]
+				},
+				{
+					"name": "octagon2",
+					"pivot": [8, 3, -7.25]
+				}
+			]
+		}
+	]
+}
